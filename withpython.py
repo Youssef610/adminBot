@@ -22,8 +22,8 @@ db = client['test']
 collection_users = db['users']
 collection_call = db['calls']
 collection_recentsearches = db['recentsearches']
-bot.send_message('995944815', "Successfully Deploy in PythonAnyWhere")
-bot.send_message('1098317745', "Successfully Deploy in PythonAnyWhere")
+# bot.send_message('995944815', "Successfully Deploy in PythonAnyWhere")
+# bot.send_message('1098317745', "Successfully Deploy in PythonAnyWhere")
 
 
 # Handle the '/start' command
