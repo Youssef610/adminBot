@@ -217,5 +217,5 @@ def handle_user_delete(message):
     bot.send_message(chat_id, message,  parse_mode="HTML")
 
 
-bot.polling()
+bot.polling(True)
 
