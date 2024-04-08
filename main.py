@@ -133,7 +133,7 @@ def addpoints_handle_points(message, user, idd):
     try:
         collection_users.update_one(
             {"id": idd}, {"$set": {"points": int(points)}})
-        bot.send_message(chat_id, f"Done, {user['id']} has { user['points']} now :)")
+        bot.send_message(chat_id, f"Done, {user['id']} has { points } now :)")
     except Exception as e:
         print("Error handling points:", e)
         bot.send_message(
