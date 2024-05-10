@@ -13,7 +13,7 @@ def send_long_message(chat_id, message_text):
         for chunk in chunks:
             bot.send_message(chat_id, chunk, parse_mode="HTML")
 # Initialize the Telegram bot
-bot = telebot.TeleBot('7061989308:AAEyIE9Sp6HgzyDf5VGldgP0WGXtaqOJFkQ')
+bot = telebot.TeleBot('6140919858:AAF3Gv5ttqJjxdti8JbizezZ3rMNb1A0EGw')
 
 # Connect to MongoDB
 client = MongoClient(
