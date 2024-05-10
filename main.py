@@ -31,7 +31,7 @@ collection_recentsearches = db['recentsearches']
 def send_welcome(message):
     chat_id = message.chat.id
     user_name = message.chat.first_name if message.chat.first_name else "Admin"
-    message = f"Welcome, {user_name}.\nServer is running"
+    message = f"hi, {user_name}.\nServer is running"
     bot.send_message(chat_id, message, parse_mode="HTML")
 
 
